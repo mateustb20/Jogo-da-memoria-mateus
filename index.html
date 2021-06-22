@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv=" X-UA-Compatible " content=" IE = edge ">
+  <meta name=" viewport " content=" width = device-width, initial-scale = 1.0 ">
+  <title> Login screen </title>
+  <style>
+    html {
+      margin: 0px;
+      padding: 0px;
+      height: 100%;
+      width: 100%;
+    }
+
+    body {
+      height: inherit;
+      background-image: url('img/background.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      z-index: -999999;
+    }
+
+    .container {
+      height: inherit;
+      min-height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .square_btn {
+      display: inline-block;
+      padding: 0.5em 1em;
+      text-decoration: none;
+      border-radius: 3px;
+      font-weight: bold;
+      color: #FFF;
+      background-image: -webkit-linear-gradient(45deg, #709dff 0%, #b0c9ff 100%);
+      background-image: linear-gradient(45deg, #709dff 0%, #b0c9ff 100%);
+      transition: .4s;
+
+      margin-top: 350px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 170px;
+      height: 60px;
+    }
+
+    .square_btn:hover {
+      background-image: -webkit-linear-gradient(45deg, #709dff 50%, #b0c9ff 100%);
+      background-image: linear-gradient(45deg, #709dff 50%, #b0c9ff 100%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <a class="square_btn" href="game.html"> PLAY </a>
+  </div>
+</body>
+
+</html>
